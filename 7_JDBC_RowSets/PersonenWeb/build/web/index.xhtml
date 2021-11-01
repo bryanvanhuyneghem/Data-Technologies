@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Personen</title>
+    </h:head>
+    <h:body>
+        <h1>Personen</h1>
+        <h:form>
+            <h:dataTable value="#{persoonData.personen}" var="persoon">
+                <h:column>
+                    <f:facet name="header">Personen</f:facet>
+                    <h:outputText value="#{persoon.naam}"/>
+                </h:column>
+            </h:dataTable>
+            <h:commandButton value="Bewaar alles" actionListener="#{persoonData.bewaarAlles}"/>
+        </h:form>
+        <h:form>
+            <h2>Persoon toevoegen</h2>
+            <h:panelGrid columns="2">
+                <h:outputLabel value="Voornaam en naam"></h:outputLabel>
+                <h:inputText required="true" value="#{persoon.naam}"></h:inputText>
+                <h:outputLabel value="Geboortedatum (dd/MM/yy)"></h:outputLabel>
+                <h:inputText required="true" value="#{persoon.geboortedatum}">
+                    <f:convertDateTime type="date" locale="nl_BE" timeZone="CET" pattern="dd/MM/yy"/>
+                </h:inputText>
+                <h:outputLabel value="M/V"></h:outputLabel>
+                <h:selectOneRadio value="#{persoon.geslacht}">
+                    <f:selectItem itemValue="M" itemLabel="M"></f:selectItem>
+                    <f:selectItem itemValue="V" itemLabel="V"></f:selectItem>
+                </h:selectOneRadio>            
+            </h:panelGrid>
+            <h:commandButton value="VoegToe" actionListener="#{persoon.voegToe}"/>
+        </h:form>
+        <h:form>
+            <h2>Persoon aanpassen</h2>
+            <h:dataTable value="#{persoonData.personen}" var="p">
+                <h:column>
+                    <f:facet name="header">Id</f:facet>
+                    <h:outputText value="#{p.id}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Naam</f:facet>
+                    <h:inputText value="#{p.naam}" rendered="#{p.editeerbaar}"/>
+                    <h:outputText value="#{p.naam}" rendered="#{not p.editeerbaar}" />
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Geboortedatum</f:facet>
+                    <h:inputText value="#{p.geboortedatum}" rendered="#{p.editeerbaar}">
+                        <f:convertDateTime type="date" locale="nl_BE" timeZone="CET" pattern="dd/MM/yy"/>
+                    </h:inputText>
+                    <h:outputText value="#{p.geboortedatum}" rendered="#{not p.editeerbaar}" >
+                        <f:convertDateTime type="date" locale="nl_BE" timeZone="CET" pattern="dd/MM/yy"/>
+                    </h:outputText>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Geslacht</f:facet>
+                    <h:outputText value="#{p.geslacht}"/>
+                </h:column>
+                <h:column>
+                    <h:commandButton value="Edit" actionListener="#{p.editeer}" 
+                                     rendered="#{not p.editeerbaar}" />
+                    <h:commandButton value="Wijzig" actionListener="#{p.wijzig}" rendered="#{p.editeerbaar}"/>
+                </h:column>
+            </h:dataTable>
+        </h:form>
+    </h:body>
+</html>
+

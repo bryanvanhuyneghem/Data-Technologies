@@ -1,0 +1,12 @@
+C:\Users\kvdw\Documents\Academiejaar 2010-2011\Netwerken 2\Ado.Net\Oplossing\Winkel\Winkel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\kvdw\Documents\Academiejaar 2010-2011\Netwerken 2\Ado.Net\Oplossing\Winkel\Winkel\bin\Debug\Winkel.exe.config
+C:\Users\kvdw\Documents\Academiejaar 2010-2011\Netwerken 2\Ado.Net\Oplossing\Winkel\Winkel\bin\Debug\Winkel.exe
+C:\Users\kvdw\Documents\Academiejaar 2010-2011\Netwerken 2\Ado.Net\Oplossing\Winkel\Winkel\bin\Debug\Winkel.pdb
+C:\Users\kvdw\Documents\Academiejaar 2010-2011\Netwerken 2\Ado.Net\Oplossing\Winkel\Winkel\obj\x86\Debug\Winkel.exe
+C:\Users\kvdw\Documents\Academiejaar 2010-2011\Netwerken 2\Ado.Net\Oplossing\Winkel\Winkel\obj\x86\Debug\Winkel.pdb
+C:\Vakken\Netwerken II\2011-12\3 - ADO\Winkel\Winkel\bin\Debug\Winkel.exe.config
+C:\Vakken\Netwerken II\2011-12\3 - ADO\Winkel\Winkel\obj\x86\Debug\Winkel.exe
+C:\Vakken\Netwerken II\2011-12\3 - ADO\Winkel\Winkel\obj\x86\Debug\Winkel.pdb
+C:\Vakken\Netwerken II\2011-12\3 - ADO\Winkel\Winkel\bin\Debug\Winkel.exe
+C:\Vakken\Netwerken II\2011-12\3 - ADO\Winkel\Winkel\bin\Debug\Winkel.pdb
+C:\Vakken\Netwerken II\2011-12\3 - ADO\Winkel\Winkel\obj\x86\Debug\ResolveAssemblyReference.cache

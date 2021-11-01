@@ -1,0 +1,52 @@
+<!DOCTYPE HTML> 
+<HTML>
+    <HEAD>
+        <TITLE>Labo DOM en XSLT API</TITLE>
+    </HEAD>
+    <BODY>
+	
+		<h1>Labo 2: DOM en XSLT API</h1>
+	
+        <p> In dit labo gebruiken we een XML-bestand met de straten van Stad Gent. 
+            We vonden dit bestand terug op het Open Data Portaal  
+            <a href="http://data.gent.be">data.gent.be</a> van de stad Gent, maar momenteel staat deze informatie daar enkel nog in json- en csv-formaat.
+            Vertrek daarom van het bestand <a href="stratenInGent.xml">stratenInGent.xml</a> dat we voor jullie bewaarden.
+            </p>
+			
+        <h2>Opdracht 1</h2>
+		In de eerste opdracht gebruiken we het XML-bestand als datalaag voor een GUI. 
+        <p>De <a href="opgave.zip">GUI</a> is reeds geschreven en heeft voorlopig een dummyobject als datalaag. 
+		Om de structuur van dit object (en de gebruikte klassen) sneller te doorgronden, gebruik je onderstaand UML-diagram.
+		<img src="stratenUML.png" alt="UML-diagram">
+		<p>
+		Vervang het dummyobject door een object dat zijn gegevens uit het XML-bestand <a href="stratenInGent.xml">stratenInGent.xml</a> haalt. 
+		De klasse van dit object is reeds deels geschreven: <b><code>XMLGemeente</code></b>.
+		Bestudeer de code die reeds gegeven is; je zal iets gelijkaardigs nodig hebben in opdracht 2 van dit labo. 
+		Vul nu aan waar gevraagd: gebruik het DOM-principe om het XML-bestand volledig in te lezen.
+		<p>
+        <img src="stratenGUI.png" alt="screenshot GUI">
+        <h2>Extra - enkel te implementeren na afwerken van opdracht 2.</h2>
+        <p>Je merkt dat de stadsdelen, wijken en straten niet alfabetisch gesorteerd zijn. Hoe zou je dat kunnen oplossen?</p>
+		<img src="stratenGUI2.PNG" alt="screenshot GUI">
+	
+	
+		<h2>Opdracht 2</h2>
+	
+		Voor de tweede opdracht maak je een nieuw, leeg project aan. Zorg dat het XML-bestand (met de straten van Gent) hierin beschikbaar is.
+		Je krijgt tevens een XML-Schema, <a href="stratenPerPostcode.xsd">stratenPerPostcode.xsd</a>, waarin een andere structuur vastgelegd wordt
+		voor XML-bestanden met hetzelfde onderwerp als het gekende XML-bestand: straten, wijken, stadsdelen,...
+		Bedoeling is om het gekende stratenbestand om te vormen naar een nieuw XML-bestand dat voldoet aan die nieuwe structuur. 
+		<p>
+		<!--Genereer eerst de klassen <code>Straat</code>, <code>Wijk</code>, <code>Stadsdeel</code>,... zodat deze aansluiten bij de structuur uit het
+		XML-Schema. (Zie theorie "Klassen genereren".)-->
+        
+		<p> Schrijf een programma dat het gekende XML-bestand inleest aan de hand van de DOM-API in Java. 
+		(Baseer je op vorige opdracht waar nuttig.) 
+		Daarna maakt dit programma een nieuw DOM-object aan voor het nieuwe XML-bestand, dat dan met behulp van de Transform-API weggeschreven wordt
+		naar dat nieuwe bestand. Het resultaat (of toch de start daarvan) vind je hieronder.</p>
+		<img src="stratenPerPostcode.png" />
+	
+	
+	
+    </BODY>
+</HTML>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Labo 01: DTD en XML Schema</title>
+</head>
+<body>
+<h1>Labo 1: DTD en XML Schema</h1>
+<p>
+Schrijf een DTD en XML Schema voor het controleren van de gegevens van films.
+</p>
+<p>
+De gegevens zijn als volgt gestructureerd:
+<ul>
+<li>Het basiselement is <b>imdb</b></li>
+<li>Het element <b>imdb</b> bevat: 
+	<ul>
+		<li>één element <b>films</b> dat alle gegevens van de films zelf bevat.</li>
+		<li>één element <b>personen</b> dat alle acteurs, actrices en regisseur van de films bevat.</li>
+		<li>één element <b>filmmaatschappijen</b> dat de gegevens bevat van de betrokken filmmaatschappijen.</li>
+	</ul>
+</li>
+</ul>
+Het element <b>filmmaatschappijen</b> heeft volgende structuur:
+<ul>
+<li>Het bevat één of meer elementen van het type <b>filmmaatschappij</b>.</li>
+<li>Het element <b>filmmaatschappij</b> bevat:
+	<ul>
+		<li>één attribuut <b>id</b>.</li>
+		<li>één element <b>naam</b>.</li>
+		<li>nul of één element <b>website</b>.</li>
+	</ul>
+</li>
+</ul>
+Het element <b>personen</b> heeft volgende structuur:
+<ul>
+<li>Het bevat nul of meerdere elementen van het type <b>persoon</b>.</li>
+<li>Het element <b>persoon</b> bevat:
+	<ul>
+		<li>één attribuut <b>id</b>.</li>
+		<li>één element <b>naam</b>.</li>
+		<li>één element <b>geboortedatum</b> van de vorm dd/mm/yyyy.</li>		
+		<li>één element <b>geboorteplaats</b>.</li>
+		<li>één element <b>geslacht</b>, dat de waarde M of V bevat.</li>
+		<li>één element <b>foto</b>, waarvan de waarde steeds eindigt op .jpg.</li>
+	</ul>
+</li>
+</ul>
+Het element <b>films</b> heeft volgende structuur:
+<ul>
+<li>Het bevat nul of meerdere elementen van de types <b>animatiefilm</b> en <b>film</b> in een willekeurige volgorde.</li>
+<li>Het element <b>animatiefilm</b> bevat:
+	<ul>
+		<li>één attribuut <b>id</b>.</li>
+		<li>één attribuut <b>beoordeling</b>, dat de waarde KT of KNT kan aannemen.</li>
+		<li>één element <b>titel</b>.</li>
+		<li>één element <b>cast</b>, waarover later meer.</li>
+		<li>één of meerdere elementen <b>regisseur</b>. Dit element is leeg maar heeft wel een attribuut <b>naam</b> dat verwijst naar het id van een persoon.</li>
+		<li>één element <b>speelduur</b>, waarvan de waarde steeds een positief geheel getal is. 
+		<li>één element <b>maatschappijen</b>, dat een of meer elementen van het type <b>maatschappij</b> bevat.</li>
+	</ul>
+</li>
+</ul>
+Het element <b>maatschappij</b> is leeg, maar heeft wel één attribuut <b>naam</b> dat verwijst naar een filmmaatschappij.<br><br>
+Het element <b>cast</b> heeft volgende structuur:
+<ul>
+	<li>Het bevat één of meerdere elementen van het type <b>personage</b>. Het element <b>personage</b> bevat de naam van het personage en een attribuut <b>acteur</b> dat verwijst naar een persoon.</li>
+</ul>
+Het element <b>film</b> heeft volledig dezelfde structuur als het element <b>animatiefilm</b> alleen bevat film een extra element <b>filmlocatie</b>. 
+<br>
+<br>
+<ol>
+	<li>Schrijf eerst de DTD en het XML Schema. De volgorde waarin je ze schrijft mag je zelf kiezen.</li>
+	<li>Daarna kan je jouw DTD en XML testen met het bestand <a href="imdb_fout.xml">imdb_fout.xml</a>. Jouw DTD zou daar 4 fouten moeten vinden, terwijl het 
+	XML Schema 13 fouten zou moeten vinden.</li>
+</ol>
+
+<h2>Afgeven</h2>
+<p>
+Zowel jouw XML Schema als jouw DTD moeten klaar zijn tegen de volgende les. 
+</p>
+</body>
+</html>

@@ -1,0 +1,3 @@
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\MusicApplication\bin\Debug\MusicApplication.exe.config
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\MusicApplication\obj\Debug\MusicApplication.exe
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\MusicApplication\obj\Debug\MusicApplication.pdb

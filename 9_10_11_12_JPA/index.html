@@ -1,0 +1,21 @@
+<h2>Labo JPA</h2>
+<p>
+Maak een datalaag met JPA en voorzie JUnit-testen om de functionaliteit van de datalaag te testen. Als JPA-provider gebruik je EclipseLink (JPA 2.1) of Hibernate 4.3.x (JPA 2.1). </p>
+<h3>Databank</h3>
+<p>De data wordt bewaard in een Java DB-databank. De naam van de databank is <b><code>jpadb</code></b> voorzie een gebruiker met loginnaam <b><code>iii</code></b> en wachtwoord <b><code>iiipwd</code></b>. Je mag je tabelstructuur automatisch laten genereren door JPA. Zet dit echter wel af van zodra je tabellen aangemaakt zijn. Een alternatief is om een bestaande databank te gebruiken. Voorzie in dat geval scripts om de databank aan te maken en op te vullen.</p>
+<h3>Functionaliteit datalaag</h3>
+<ul>
+	<li>De datalaag bevat minstens &eacute;&eacute;n 1-1-relatie, 1-n-relatie en &eacute;&eacute;n n-n-relatie.</li>
+	<li>Voorzie een relatie met en zonder cascade.</li>
+	<li>De datalaag bevat overerving.</li>
+	<li>De datalaag heeft &eacute;&eacute;n of meerdere value-objecten.</li>
+	<li>Met de datalaag kan je &eacute;&eacute;n object toevoegen.</li>
+	<li>Met de datalaag kan je een verzameling van objecten toevoegen.</li>
+	<li>Met de datalaag kan je objecten opvragen. Voorzie zowel een "lazy" als niet "lazy" opvraging. </li>
+	<li>De datalaag heeft ook een opvraging die gebruik maakt van parameters.</li>
+	<li>Met de datalaag kan je objecten aanpassen.</li>
+	<li>Schrijf voor elke functionaliteit een JUnit-test die het gebruik en de mogelijke speciale gevallen illustreert.</li>
+</ul>
+<p><b>Tip</b>: voeg het bestand <code>persistence.xml</code> toe op de volgende manier: rechts klikken op je project --> New --> Other --> Persistence --> Persistence Unit.</p>
+<h3>Indienen opdracht</h3>
+<p>Bewaar geregeld jullie oplossing in jullie repository. De locatie van jullie repository is https://github.ugent.be/gegtechJPA2017/groep-XX, waarbij je XX vervangt door je groepsnummer. Zorg ervoor dat elk teamlid zijn code pusht onder zijn naam. Je oplossing moet ten laatste afgewerkt zijn op 23 december 2017 om 12u00. Beschrijf in de <b><code>README.md</code></b> hoe je datalaag getest kan worden.</p>

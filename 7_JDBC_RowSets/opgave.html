@@ -1,0 +1,83 @@
+<title>JDBC</title>
+<h2>JDBC: Deel 2</h2>
+<p>In dit labo schrijven we de datalaag voor een webapplicatie <a href="PersonenWeb.zip">PersonenWeb</a>. 
+    De interface voor de datalaag ligt vast in de interface <code>be.iii.personen.PersoonDAO</code>. 
+    Er is reeds een dummy-implementatie voorzien in de klasse <code>be.iii.personen.data.PersoonDAODummy</code>. 
+    Het doel van deze opdracht is om de dummy-implementatie te vervangen door een implementatie die de data bewaart 
+    in een gegevensbank. Hierbij maken we gebruik van een <b><code>DataSource</code></b> ipv een JDBC-driver en van 
+    <b><code>CachedRowSet</code>s</b>.
+</p>
+<h3>Webapplicatie</h3>
+<p>Open de webapplicatie <b>PersonenWeb</b> in Netbeans en test ze uit. Deze applicatie heeft de volgende functionaliteit:</p>
+<ul>
+    <li>In het onderdeel <b>Persoon toevoegen</b> kan je een persoon toevoegen. Alle 
+        velden moeten ingevuld worden. Bij het klikken op de knop <code>VoegToe</code> wordt 
+        een persoon toegevoegd, maar nog niet bewaard in de databank. Pas bij het klikken
+        op de "Bewaar alles"-knop worden de toegevoegde personen zichtbaar in het eerste deel
+        van de webpagina en worden ze bewaard in de databank.
+    </li>
+    <li>
+        In het onderdeel <b>Persoon aanpassen</b> kan je de gegevens van &eacute;&eacute;n persoon aanpassen.
+        Deze aanpassingen worden onmiddellijk permanent gemaakt.
+    </li>
+</ul>
+<h3>Configuratie DataSource</h3>
+<p>Om de datasource op te zetten en te configureren moet je de volgende stappen uitvoeren: </p>
+<ol>
+    <li>Maak in het tabblad Services een <b>nieuwe Java DB-databank</b> aan met bijvoorbeeld de volgende instellingen. 
+        <ul>
+            <li>naam: personen </li>
+            <li>login: iii </li>
+            <li>wachtwoord: iiipwd </li>
+        </ul>
+</li>
+    <li>Voor nu het <b>script</b> <a href="maakPersoonDB.sql">maakPersoonDB.sql</a> uit. Om een script uit te voeren, open je het bestand in Netbeans. Selecteer bovenaan de juiste "Connection" en klik op het icoon naast de keuzelijst. Dit script maakt <b>een tabel <code>PERSONEN</code></b> aan.
+        <img src="script.png"></li>
+    <li>Start de Glassfish-server, als hij nog niet gestart is. Maak nu een <code>DataSource</code> aan in Glassfish. 
+    
+    In oudere versies van Glassfish (4.1 en ouder) kon dit in een webapplicatie, nu (Glassfish 4.1.1 en later) 
+    moeten de pool en de datasource toegevoegd worden via de console (commandolijnopdrachten).
+       <!-- <ul><li><b>Glassfish 4.0 en 4.1</b>: open de "Admin Console" 
+        (Rechts klikken op de server in het tabblad "Services" en "View Domain Admin Console" 
+        selecteren.)
+        <ul>
+    <li>Bekijk de instellingen van de connectionpool "SamplePool" en maak een <b>connectionpool</b> "PersoonPool"
+        met dezelfde instellingen:
+        <ul>
+            <li>Resource Type: javax.sql.DataSource</li>
+            <li>Datasource Classname: org.apache.derby.jdbc.ClientDataSource</li>
+            <li>User: de gekozen loginnaam</li>
+            <li>DatabaseName: de gekozen naam van de databank</li>
+            <li>serverName: localhost</li>
+            <li>PortNumber: 1527</li>
+            <li>URL: jdbc:derby://localhost:1527/...</li>
+            <li>Password: het gekozen wachtwoord</li>
+        </ul>
+        Andere "Additional Properties" verwijder je best.
+    </li>
+    <li>Voeg een <b>datasource</b> met de JNDI-naam "jdbc/persoon" toe die gebruikt maakt van de net aangemaakte
+        connectionpool "PersoonPool". Deze datasource gebruik je in je implementatie van de datalaag.</li></ul></li>
+        <li><b>Glassfish 4.1.1, 4.2 ...</b>:
+        voeg de pool en de datasource toevoegen via de console.--> 
+        Ga naar de <code>bin</code>-map van Glassfish (bv. <code>C:\Program Files\glassfish-4.1\bin</code>) en voer de volgende twee opdrachten uit:<br>
+            Maak de pool PersoonPool:<br>
+<code>asadmin create-jdbc-connection-pool --datasourceclassname org.apache.derby.jdbc.ClientDataSource --restype javax.sql.DataSource 
+--property portNumber=1527:password=iiipwd:user=iii:serverName=localhost:databaseName=personen PersoonPool</code><br>
+Maak de DataSource:<br>
+<code>asadmin create-jdbc-resource --connectionpoolid PersoonPool
+jdbc/personen</code>
+        </li>
+</ol>
+<p>In Netbeans kan je nu de aangemaakte pool en datasource bekijken.</p>
+<img src="poolDS.png">
+<h3>Datalaag</h3>
+<p>Implementeer de datalaag met behulp van de aangemaakte datasource en
+    met <code>CachedRowSet</code>s. Je zal twee CachedRowSets nodig hebben: &eacute;&eacute;n
+    om personen toe te voegen en &eacute;&eacute;n om personen aan te passen.
+    Bij het toevoegen van personen mag je de <code>ID</code>-kolom niet mee
+    opvragen omdat de waarde voor deze kolom automatisch aangemaakt wordt.
+</p>
+
+<p>Om de nieuwe implemenatie van <code>PersoonDAO</code> te gebruiken vervang je in het configuratiebestand <code>faces-config.xml</code> op lijn 8 <code>be.iii.personen.data.PersoonDAODummy</code> door de naam van de nieuwe klasse.</p>
+<img src="faces-config.png">
+    

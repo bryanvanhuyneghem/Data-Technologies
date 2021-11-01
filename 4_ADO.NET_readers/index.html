@@ -1,0 +1,110 @@
+
+<!DOCTYPE HTML> 
+<HTML>
+    <HEAD>
+        <TITLE>Labo 4: ADO.Net (DataReaders)</TITLE>
+    </HEAD>
+
+    <BODY>
+
+        <h2>ADO.Net (DataReaders)</h2>
+
+Tijdens dit labo ontwikkelen we een applicatie die het mogelijk maakt om alle gegevens van een winkel uit een SQL-databank te halen. 
+De applicatie wordt ontwikkeld m.b.v. ADO.Net. 
+</p>
+<!--
+<h3>Opzetten gegevensbank</h3>
+
+<ol>
+<li>Controleer of de MySQL-service opgestart is. </li>
+<li>Start de mysql-client vanuit het windows-menu (wachtwoord: e=mc**2).</li>
+<li>
+Maak de databank en tabellen aan:
+<ul>
+   <li>Download het bestand <a href="databank.zip">databank.zip</a> en unzip het bestand in C:\temp.</li>
+   <li>Voer in de mysql-client volgend commando uit: <code>\. C:\\temp\\scripts\\create_classicmodels.sql</code></li>
+   <li>Voer in de mysql-client volgend commando uit: <code>\. C:\\temp\\scripts\\load_classicmodels.sql</code></li> 
+</ul>
+</li>
+<li>
+Normaal is het gegevensbanksysteem nu opgestart en opgevuld met gegevens. 
+</li>
+</ol>
+<h3>ADO.Net-provider</h3>
+<p>
+Om de connectie met de databank te kunnen realiseren heb je een provider nodig, die je <a href="mysql.data.msi">hier</a> kan vinden. Zet het msi-bestand in C:\temp en installeer de provider op je pc, 
+met volgend commando: <code>runas /user:computernaam\Administrator "msiexec /i c:\temp\mysql.data.msi"</code>.
+Voeg daarna een "Data Connection" toe in het venster "Server Explorer" van Visual Studio en bekijk de inhoud van de tabellen.
+</p>
+-->
+
+<h3>Databank</h3>
+<p>
+Download de database, gegeven onder vorm van het bestand <a href="classicmodels.mdf"><code>classicmodels.mdf</code></a>, van Minerva. 
+Dit voeg je toe aan Visual Studio op de volgende manier:
+<ol>
+<li>
+Open Server Explorer (dit staat meestal ergens links of vind je via het menu View)
+<li>
+Klik rechts op Data Connections
+<li>
+Add Connection ...
+<li>
+Data Source moet de waarde "Microsoft SQL Server Database File (SqlClient)" hebben
+<li>
+Browse naar <b>classicmodels.mdf</b>.
+<li>
+Use Windows Authentication
+<li>
+Als er gevraagd wordt of de database een update mag ondergaan, stem je in.
+</ol>
+
+<!-- de providername en de connectiestring is nu ook anders.
+De connectiestring kan je opvragen door de "Properties" van de dataconnection te bekijken.-->
+
+
+<h3>Opgave</h3>
+<p>
+Maak een console-applicatie die onderstaande acties uitvoert op de databank. 
+Je kan een <b><a href="Winkel.rar">onvolledige versie van de applicatie</a></b> downloaden, en deze aanvullen met de nodige code.
+<ul>
+	<li>Een lijst van alle customers tonen. (Dus een methode met returntype <code>List&lt;Customer></code> kan handig zijn.) </li>
+	<li>Een nieuwe customer toevoegen aan de databank.</li>
+	<li>Een nieuw order inclusief orderdetails toevoegen aan de databank. Zorg ervoor dat wanneer het toevoegen van het order met orderdetails mislukt, de databank terugkeert naar de toestand voor het uitvoeren van de query.</li>
+</ul>
+</p>
+<p>
+De applicatie moet voldoen aan volgende eisen:
+<ul>
+	<li>Geschreven in C#.</li>
+	<li>Het ADO.NET gedeelte maakt gebruik van DataReaders, niet van DataAdapters.</li>
+	<li>Alle nodige query's komen uit een configuratiebestand.</li>
+	<li>Zorg voor een goede foutafhandeling.</li>
+	<li>Zorg dat je connectie steeds correct wordt afgesloten.</li>
+</ul>
+</p>  
+<h3>SQL-query's</h3>
+<p>
+Volgende configuratiegegevens kan je gebruiken voor de applicatie. Vul de query's aan waar nodig.
+<ul>
+	<li>providername: <code>System.Data.SqlClient</code>
+	<li>connectionstring: deze vind je bij de properties van de data connection (zie screenshots onderaan); dat is een vrij lange tekst. Haal er eventueel nog wat "-tekens uit weg als die er teveel staan.
+	<li>customers tonen: <code>select * from customers</code>
+	<li>customer toevoegen: <code>insert into customers (customerNumber,customerName,contactLastName,contactFirstName,phone,addressLine1,addressLine2,city,state,postalCode,country,salesRepEmployeeNumber,creditLimit) values (...,...,...,...,...,...,...,...,...,...,...,...,...)</code>
+	<li>order toevoegen: <code>insert into orders (orderNumber,orderDate,requiredDate,shippedDate,status,comments,customerNumber) values (...,...,...,...,...,...,...)</code>
+	<li>orderdetails toevoegen: <code>insert into orderdetails (orderNumber,productCode,quantityOrdered,priceEach,orderLineNumber) values (...,...,...,...,...)</code>
+</ul>
+
+<img src="8.png" alt="propertiesvenster van Data Connections"/>
+<img src="9.png" alt="connectionString"/>
+
+
+<h3>Tips</h3>
+<p>
+De indentatie goed zetten doe je aan de hand van de toetsencombinatie <code>Ctrl K</code> gevolgd door <code>Ctrl D</code>.
+<br/> Hulp krijgen bij het oplossen van fouten gaat met de toetsencombinatie <code>Ctrl ;</code>.
+<br/> Allicht vindt Visual Studio de klasse <code>System.Configuration</code> niet. In het venster <code>Solution Explorer</code> klik je rechts op 
+<code>References</code>, je kiest voor <code>Add reference</code> en je vinkt <code>System.Configuration</code> aan. Eventueel zelfde opmerking voor <code>System.Data</code>.
+
+</BODY>
+</HTML>

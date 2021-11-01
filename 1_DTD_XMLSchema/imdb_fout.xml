@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE imdb SYSTEM "imdb.dtd">
+<imdb>
+<!--<imdb xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="imdb.xsd">-->
+    <films>
+        <film id="MPATHG" beoordeling="KT">
+            <titel>Monty Python and the Holy Grail</titel>
+            <cast>
+                <personage acteur="GCHAPMAN">
+                    King Arthur
+                </personage>
+                <personage acteur="GCHAPMAN">
+                    Voice of God
+                </personage>
+                <personage acteur="GCHAPMAN">
+                    Middle Head
+                </personage>
+                <personage acteur="GCHAPMAN">
+                    Hiccoughing Guard
+                </personage>
+                <personage acteur="JCLEESE">
+                    The Black Knight
+                </personage>
+                <personage acteur="JCLEESE">
+                    Sir Lancelot, the Brave
+                </personage>
+                <personage acteur="JCLEESE">
+                    Taunting French Guard
+                </personage>
+                <personage acteur="JCLEESE">
+                    Tim the Enchanter
+                </personage>
+                <personage acteur="EIDLE">
+                    Sir Robin the Not-Quite-So-Brave-as-Sir Launcelot
+                </personage>
+                <personage acteur="EIDLE">
+                    Dead Collector
+                </personage>
+                <personage acteur="EIDLE">
+                    Roger the Shrubber
+                </personage>
+            </cast>
+            <regisseur naam="TJONES"/>
+            <speelduur>91</speelduur>
+            <maatschappijen>
+                <maatschappij naam="MICHAELWHITE"/>
+            </maatschappijen>
+            <filmlocatie>
+                Appin, Argyll, Scotland, UK
+            </filmlocatie>
+        </film>
+        <animatiefilm id="TI" beoordeling="KT">
+            <titel>The Incredibles</titel>
+            <cast>
+                <personage acteur="CNELSON">
+                    Bob Parr
+                </personage>
+                <personage acteur="CNELSON">
+                    Mr. Incredible
+                </personage>
+                <personage acteur="HHUNTER">
+                    Helen Parr
+                </personage>
+                <personage acteur="HHUNTER">
+                    Helen Parr
+                </personage>
+                <personage acteur="SJACKSON">
+                    Lucius Best
+                </personage>
+                <personage acteur="SJACKSON">
+                    Frozone
+                </personage>
+                <personage acteur="JLEE">
+                    Buddy Pine
+                </personage>
+                <personage acteur="JLEE">
+                    Syndrome
+                </personage>
+            </cast>
+            <regisseur naam="BBIRD"/>
+            <speelduur>115</speelduur>
+            <maatschappijen>
+                <maatschappij naam="WALTDISNEYPICTURES"/>
+            </maatschappijen>
+        </animatiefilm>
+        <animatiefilm id="IA" beoordeling="KT">
+            <titel>Ice Age</titel>
+            <cast>
+                <personage acteur="RROMANO">
+                    Manfred
+                </personage>
+                <personage acteur="JLEGUIZAMO">
+                    Sid
+                </personage>
+                <personage acteur="DLEARY">
+                    Diego
+                </personage>
+            </cast>
+            <regisseur naam="CWEDGE"/>
+            <regisseur naam="CSALDANHA"/>
+            <speelduur>81</speelduur>
+            <maatschappijen>
+                <maatschappij naam="BLUESKYSTUDIO"/>
+            </maatschappijen>
+        </animatiefilm>
+        <film id="TSR" beoordeling="KNT">
+            <titel>The Shawshank Redemption</titel>
+            <cast>
+                <personage acteur="TROBBINS">
+                    Andy Dufresne
+                </personage>
+                <personage acteur="MFREEMAN">
+                    Ellis Boyd 'Red' Redding
+                </personage>
+                <personage acteur="BGUNTON">
+                    Warden Norton
+                </personage>
+                <personage acteur="WSADLER">
+                    Heywood
+                </personage>
+                <personage acteur="CBROWN">
+                    Captain Hadley
+                </personage>
+            </cast>
+            <regisseur naam="FDARABONT"/>
+            <speelduur>-142</speelduur>
+            <maatschappijen>
+                <maatschappij naam="CASTLEROCK"/>
+            </maatschappijen>
+            <filmlocatie>
+                Ashland, Ohio, USA 
+            </filmlocatie>
+        </film>
+        <film id="TDK" beoordeling="KT">
+            <titel>The Dark Knight</titel>
+            <cast>
+                <personage acteur="CBALE">
+                    Bruce Wayne
+                </personage>
+                <personage acteur="CBALE">
+                    Batman
+                </personage>
+                <personage acteur="MFREEMAN">
+                    Lucius Fox
+                </personage>
+                <personage acteur="MCAINE">
+                    Alfred
+                </personage>
+                <personage acteur="HLEDGER">
+                    The Joker
+                </personage>
+                <personage acteur="MGYLLENHAAL">
+                    Rachel Dawes
+                </personage>
+            </cast>
+            <regisseur naam="CNOLAN"/>
+            <speelduur>152</speelduur>
+            <maatschappijen>
+                <maatschappij naam="WARNERBROS" />
+                <maatschappij naam="LEGENDARYPICTURES" />
+            </maatschappijen>
+            <filmlocatie>
+                Atwood Cafe - 1 W Washington St, Chicago, Illinois, USA
+            </filmlocatie>
+        </film>
+        <film id="PF" beoordeling="KNT">
+            <titel>Pulp Fiction</titel>
+            <cast>
+                <personage acteur="JTRAVOLTA">
+                    Vincent Vega
+                </personage>
+                <personage acteur="SJACKSON">
+                    Jules Winnifield
+                </personage>
+                <personage acteur="BWILLIS">
+                    Butch Coolidge
+                </personage>
+                <personage acteur="UTHURMAN">
+                    Mia Wallace
+                </personage>
+            </cast>
+            <regisseur naam="QTARANTINO"/>
+            <speelduur>154</speelduur>
+            <maatschappijen>
+                <maatschappij naam="MIRAMAX" />
+            </maatschappijen>
+            <filmlocatie>
+                Hawthorne Grill - 13763 S. Hawthorne Boulevard, Hawthorne, California, USA
+            </filmlocatie>
+        </film>
+        <film id="NCFOM" beoordeling="KNT">
+            <titel>No Country for old men.</titel>
+            <cast>
+                <personage acteur="TLJONES">
+                    Sherriff Ed Tom Bell
+                </personage>
+                <personage acteur="JBARDEM">
+                    Anton Chigurh
+                </personage>
+                <personage acteur="WHARRELSON">
+                    Carson Wells
+                </personage>
+                <personage acteur="JBROLIN">
+                    Llewelyn Moss
+                </personage>
+                <personage acteur="KMACDONALD">
+                    Carla Jean Moss
+                </personage>
+            </cast>
+            <regisseur naam="ECOEN"/>
+            <regisseur naam="JCOEN"/>
+            <speelduur>122</speelduur>
+            <maatschappijen>
+                <maatschappij naam="PARAMOUNTVANTAGE"/>
+                <maatschappij naam="MIRAMAX"/>
+            </maatschappijen>
+            <filmlocatie>
+                Albuquerque, New Mexico, USA
+            </filmlocatie>
+        </film>
+        <film id="KBV1" beoordeling="KNT">
+            <titel>Kill Bill: Vol 1</titel>
+            <cast>
+                <personage acteur="UTHURMAN">
+                    The Bride
+                </personage>
+                <personage acteur="LLIU">
+                    O-Ren Ishii
+                </personage>
+                <personage acteur="VFOX">
+                    Vernita Green
+                </personage>
+                <personage acteur="DHANNAH">
+                    Elle Driver
+                </personage>
+            </cast>
+            <regisseur naam="QTARANTINO"/>
+            <speelduur>111</speelduur>
+            <maatschappijen>
+                <maatschappij naam="MIRAMAX"/>
+            </maatschappijen>
+            <filmlocatie>
+                Austin, Texas, USA
+            </filmlocatie>
+        </film>
+        <film id="D" beoordeling="KT">
+            <titel>Daens</titel>
+            <cast>
+                <personage acteur="JDECLEIR">
+                    Priester Daens
+                </personage>
+                <personage acteur="GDESARTHE">
+                    Charles Woeste
+                </personage>
+                <personage acteur="ADEBOECK">
+                    Nette Scholliers
+                </personage>
+                <personage acteur="MPAS">
+                    Jan De Meeter
+                </personage>
+            </cast>
+            <regisseur naam="SCONINX"/>
+            <speelduur>138</speelduur>
+            <maatschappijen>
+                <maatschappij naam="FAVOURITEFILMS" />
+            </maatschappijen>
+            <filmlocatie>
+                Aalst, Belgium
+            </filmlocatie>
+        </film>
+        <film id="LVEB" beoordeling="KT">
+            <titel>La Vita e Bella</titel>
+            <cast>
+                <personage acteur="RBENIGNI">
+                    Guido Orefice
+                </personage>
+                <personage acteur="NBRASCHI">
+                    Dora
+                </personage>
+            </cast>
+            <regisseur naam="RBENIGNI"/>
+            <speelduur>116</speelduur>
+            <maatschappijen>
+                <maatschappij naam="CECCHIGORIGROUPTIGERCINEMATOGRAFICA" />
+            </maatschappijen>
+            <filmlocatie>
+                Arezzo, Tuscany, Italy
+            </filmlocatie>
+        </film>
+        <film id="MDB" beoordeling="KT">
+            <titel>Million Dollar Baby</titel>
+            <cast>
+                <personage acteur="CEASTWOOD">
+                    Frankie Dunn
+                </personage>
+                <personage acteur="HSWANK">
+                    Maggie Fitzgerald
+                </personage>
+                <personage acteur="MFREEMAN">
+                    Eddie Scrap-Iron Dupris
+                </personage>
+            </cast>
+            <regisseur naam="CEASTWOOD"/>
+            <speelduur>132</speelduur>
+            <maatschappijen>
+                <maatschappij naam="WARNERBROS" />
+            </maatschappijen>
+            <filmlocatie>
+                Hollywood Athletic Club - 6525 W. Sunset Blvd., Hollywood, Los Angeles, California, USA 
+            </filmlocatie>
+        </film>
+        <film id="S" beoordeling="KNT">
+            <titel>Se7en</titel>
+            <cast>
+                <personage acteur="BPITT">
+                    Detective David Mills
+                </personage>
+                <personage acteur="MFREEMAN">
+                    Detective Lt. Willian Somerset
+                </personage>
+                <personage acteur="GPALTROW">
+                    Tracy Mills
+                </personage>
+                <personage acteur="KSPACEY">
+                    John Doe
+                </personage>
+            </cast>
+            <regisseur naam="DFINCHER"/>
+            <speelduur>127</speelduur>
+            <maatschappijen>
+                <maatschappij naam="NEWLINE" />
+            </maatschappijen>
+            <filmlocatie>
+                Alexandria Hotel - 501 S. Spring Street, Downtown, Los Angeles, California, USA 
+            </filmlocatie>
+        </film>
+        <film id="TM" beoordeling="KNT">
+            <titel>The Matrix</titel>
+            <cast>
+                <personage acteur="KREEVES">
+                    Neo
+                </personage>
+                <personage acteur="LFISHBURNE">
+                    Morpheus
+                </personage>
+                <personage acteur="CAMOSS">
+                    Trinity
+                </personage>
+                <personage acteur="HWEAVING">
+                    Agent Smith
+                </personage>
+            </cast>
+            <regisseur naam="AWACHOWSKI"/>
+            <regisseur naam="LWACHOWSKI"/>
+            <speelduur>136</speelduur>
+            <maatschappijen>
+                <maatschappij naam="WARNERBROS" />
+            </maatschappijen>
+            <filmlocatie>
+                AON Tower, Kent Street, Sydney, New South Wales, Australia
+            </filmlocatie>
+        </film>
+        <film id="A" beoordeling="KMT">
+            <titel>Amistad</titel>
+            <cast>
+                <personage acteur="MFREEMAN">
+                    Theodore Joadson
+                </personage>
+                <personage acteur="AHOPKINS">
+                    John Quincy Adams
+                </personage>
+            </cast>
+            <regisseur naam="SSPIELBERG"/>
+            <speelduur>152</speelduur>
+            <maatschappijen>
+                <maatschappij naam="DREAMWORKS" />
+            </maatschappijen>
+            <filmlocatie>
+                Boston, Massachusetts, USA
+            </filmlocatie>
+        </film>
+        <film id="TLOTRTROTK" beoordeling="KT">
+            <titel>The Lord of the rings: the return of the king</titel>
+            <cast>
+                <personage acteur="OBLOOM">
+                    Legolas
+                </personage>
+                <personage acteur="SASTIN">
+                    Sam
+                </personage>
+                <personage acteur="EWOOD">
+                    Frodo
+                </personage>
+                <personage acteur="VMORTENSEN">
+                    Aragorn
+                </personage>
+                <personage acteur="LTYLER">
+                    Arwen
+                </personage>
+            </cast>
+            <regisseur naam="PJACKSON"/>
+            <speelduur>201</speelduur>
+            <maatschappijen>
+                <maatschappij naam="NEWLINE" />
+            </maatschappijen>
+            <filmlocatie>
+                Camperdown Studios, Camperdown Road, Miramar, Wellington, New Zealand
+            </filmlocatie>
+        </film>
+        <film id="MMS" beoordeling="KT">
+            <titel>Mr. &amp; Mrs. Smith</titel>
+            <cast>
+                <personage acteur="BPITT">
+                    John Smith
+                </personage>
+                <personage acteur="AJOLIE">
+                    Jane Smith
+                </personage>
+            </cast>
+            <regisseur naam="DLIMAN"/>
+            <speelduur>120</speelduur>
+            <maatschappijen>
+                <maatschappij naam="REGENCYENTERPRICE" />
+            </maatschappijen>
+            <filmlocatie>
+                Brooklyn Bridge, New York City, New York, USA
+            </filmlocatie>
+        </film>
+        <film id="DZA" beoordeling="KNT">
+            <titel>De Zaak Alzheimer</titel>
+            <cast>
+                <personage acteur="JDECLEIR">
+                    Angelo Ledda
+                </personage>
+                <personage acteur="KDEBOUW">
+                    Eric Vincke
+                </personage>
+                <personage acteur="WDESMEDT">
+                    Freddy Verstuyft
+                </personage>
+            </cast>
+            <regisseur naam="EVANLOOY"/>
+            <speelduur>120</speelduur>
+            <maatschappijen>
+                <maatschappij naam="MMG" />
+            </maatschappijen>
+            <filmlocatie>
+                Antwerpen, Antwerpen, Belgium
+            </filmlocatie>
+        </film>
+        <film id="TG" beoordeling="KNT">
+            <titel>The Godfather</titel>
+            <cast>
+                <personage acteur="MBRANDO">
+                    Don Vito Corleone
+                </personage>
+                <personage acteur="APACINO">
+                    Michael Corleone
+                </personage>
+                <personage acteur="JCAAN">
+                    Santino 'Sonny' Corleone
+                </personage>
+                <personage acteur="RDUVALL">
+                    Tom Hagen
+                </personage>
+            </cast>
+            <regisseur naam="FFCOPPOLA"/>
+            <speelduur>175</speelduur>
+            <maatschappijen>
+                <maatschappij naam="PARAMOUNT"/>
+            </maatschappijen>
+            <filmlocatie>
+                110 Longfellow Road, Staten Island, New York City, New York, USA
+            </filmlocatie>
+        </film>
+        <film id="SW" beoordeling="KT">
+            <titel>Star Wars</titel>
+            <cast>
+                <personage acteur="MHAMILL">
+                    Luke Skywalker
+                </personage>
+                <personage acteur="HFORD">
+                    Han Solo
+                </personage>
+                <personage acteur="CFISHER">
+                    Princess Leia Organa
+                </personage>
+            </cast>
+            <regisseur naam="GLUCAS"/>
+            <speelduur>121</speelduur>
+            <maatschappijen>
+                <maatschappij naam="LUCASFILM"/>
+                <maatschappij naam="TWENTIETHCENTURYFOX"/>
+            </maatschappijen>
+            <filmlocatie>
+                Tikal National Park, Guatemala
+            </filmlocatie>
+        </film>
+        <film id="ROTLA" beoordeling="KT">
+            <titel>Raiders of the Lost Ark</titel>
+            <cast>
+                <personage acteur="HFORD">
+                    Indiana Jones
+                </personage>
+                <personage acteur="KALLEN">
+                    Marion Ravenwood
+                </personage>
+            </cast>
+            <regisseur naam="SSPIELBERG"/>
+            <speelduur>115</speelduur>
+            <maatschappijen>
+                <maatschappij naam="LUCASFILM"/>
+                <maatschappij naam="PARAMOUNT"/>
+            </maatschappijen>
+            <filmlocatie>
+                Bushey, Hertfordshire, England, UK
+            </filmlocatie>
+        </film>
+        <film id="MA" beoordeling="KT">
+            <titel>Mar Adentro</titel>
+            <cast>
+                <personage acteur="JBARDEM">
+                    Ramon Sampedro
+                </personage>
+                <personage acteur="BRUEDA">
+                    Julia
+                </personage>
+            </cast>
+            <regisseur naam="AAMENABAR"/>
+            <speelduur>125</speelduur>
+            <maatschappijen>
+                <maatschappij naam="SOGECINE"/>
+            </maatschappijen>
+            <filmlocatie>
+                Barcelona, Catalunya, Spain
+            </filmlocatie>
+        </film>
+        <film id="AN" beoordeling="KNT">
+            <titel>Apocalypse Now</titel>
+            <cast>
+                <personage acteur="MBRANDO">
+                    Colonel Walter E. Kurtz
+                </personage>
+                <personage acteur="MSHEEN">
+                    Captain Benjamin L. Willard
+                </personage>
+                <personage acteur="RDUVALL">
+                    Lieutenant Colonel Bill Kilgore
+                </personage>
+            </cast>
+            <regisseur naam="FFCOPPOLA"/>
+            <speelduur>153</speelduur>
+            <maatschappijen>
+                <maatschappij naam="UNITEDARTISTS"/>
+            </maatschappijen>
+            <filmlocatie>
+                Philippines 
+            </filmlocatie>
+        </film>
+    </films>
+    <personen>
+        <persoon id="NBRASCHI">
+            <naam>Braschi, Nicoletta</naam>
+            <geboortedatum>19-04-1960</geboortedatum>
+            <geboorteplaats>Cesena, Italy</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>braschi.jpg</foto>
+        </persoon>
+        <persoon id="RBENIGNI">
+            <naam>Benigni, Roberto</naam>
+            <geboortedatum>27/10/1952</geboortedatum>
+            <geboorteplaats>Misericordia, Arezzo, Tuscany, Italy</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>benigni.jpg</foto>
+        </persoon>
+        <persoon id="CEASTWOOD">
+            <naam>Eastwood, Clint</naam>
+            <geboortedatum>31/05/1930</geboortedatum>
+            <geboorteplaats>San Francisco, California, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+        </persoon>
+        <persoon id="HSWANK">
+            <naam>Swank, Hilary</naam>
+            <geboortedatum>30/07/1974</geboortedatum>
+            <geboorteplaats>Bellingham, Washington, USA</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>swank.jpg</foto>
+        </persoon>
+        <persoon id="LWACHOWSKI">
+            <naam>Wachowski, Larry</naam>
+            <geboortedatum>25/06/1965</geboortedatum>
+            <geboorteplaats>Chicago, Illinois, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>lwachowski.jpg</foto>
+        </persoon>
+        <persoon id="BRUEDA">
+            <naam>Rueda, Belen</naam>
+            <geboortedatum>19/03/1965</geboortedatum>
+            <geboorteplaats>Madrid, Spanje</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>rueda.jpg</foto>
+        </persoon>
+        <persoon id="AWACHOWSKI">
+            <naam>Wachowski, Andy</naam>
+            <geboortedatum>29/12/1967</geboortedatum>
+            <geboorteplaats>Chicago, Illinois, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>awachowski.gif</foto>
+        </persoon>
+        <persoon id="AAMENABAR">
+            <naam>Amenabar, Alejandro</naam>
+            <geboortedatum>31/03/1972</geboortedatum>
+            <geboorteplaats>Santiago de Chile, Chile</geboorteplaats>
+            <geslacht>man</geslacht>
+            <foto>amenabar.jpg</foto>
+        </persoon>
+        <persoon id="MSHEEN">
+            <naam>Sheen, Martin</naam>
+            <geboortedatum>03/08/1940</geboortedatum>
+            <geboorteplaats>Dayton, Ohio</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>sheen.jpg</foto>
+            <foto>sheen2.jpg</foto>
+        </persoon>
+        <persoon id="GCHAPMAN">
+            <naam>Chapman, Graham</naam>
+            <geboortedatum>08/01/1941</geboortedatum>
+            <geboorteplaats>Leicester, Engeland</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>chapman.jpg</foto>
+        </persoon>
+        <persoon id="JCLEESE">
+            <naam>Cleese, John</naam>
+            <geboortedatum>27/10/1939</geboortedatum>
+            <geboorteplaats>Weston-Super-Mare, Engeland</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>cleese.jpg</foto>
+        </persoon>
+        <persoon id="EIDLE">
+            <naam>Idle, Eric</naam>
+            <geboortedatum>29/03/1943</geboortedatum>
+            <geboorteplaats>South Shields, Engeland</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>idle.jpg</foto>
+        </persoon>
+        <persoon id="TJONES">
+            <naam>Jones, Terry</naam>
+            <geboortedatum>01/02/1942</geboortedatum>
+            <geboorteplaats>Colwyn Bay, Wales</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>tjones.jpg</foto>
+        </persoon>
+        <persoon id="MBRANDO">
+            <naam>Brando, Marlon</naam>
+            <geboortedatum>03/04/1924</geboortedatum>
+            <geboorteplaats>Omaha, Nebraska</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>brando.jpg</foto>
+        </persoon>
+        <persoon id="APACINO">
+            <naam>Pacino, Al</naam>
+            <geboortedatum>25/04/1940</geboortedatum>
+            <geboorteplaats>New York, New York</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>pacino.jpg</foto>
+        </persoon>
+        <persoon id="JCAAN">
+            <naam>Caan, James</naam>
+            <geboortedatum>26/03/1940</geboortedatum>
+            <geboorteplaats>The Bronx, New York</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>caan.jpg</foto>
+        </persoon>
+        <persoon id="RDUVALL">
+            <naam>Duvall, Robert</naam>
+            <geboortedatum>05/01/1931</geboortedatum>
+            <geboorteplaats>San Diego, California</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>duvall.jpg</foto>
+        </persoon>
+        <persoon id="FFCOPPOLA">
+            <naam>Coppola, Francis Ford</naam>
+            <geboortedatum>07/04/1939</geboortedatum>
+            <geboorteplaats>Detroit, Michigan</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>coppola.jpg</foto>
+        </persoon>
+        <persoon id="MHAMILL">
+            <naam>Hamill, Mark</naam>
+            <geboortedatum>25/09/1951</geboortedatum>
+            <geboorteplaats>Concord, California</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>hamill.jpg</foto>
+        </persoon>
+        <persoon id="HFORD">
+            <naam>Ford, Harrison</naam>
+            <geboortedatum>13/07/1942</geboortedatum>
+            <geboorteplaats>Chicago, Illinois</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>ford.jpg</foto>
+        </persoon>
+        <persoon id="CFISHER">
+            <naam>Fisher, Carrie</naam>
+            <geboortedatum>21/10/1956</geboortedatum>
+            <geboorteplaats>Los Angeles, California</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>fisher.jpg</foto>
+        </persoon>
+        <persoon id="GLUCAS">
+            <naam>Lucas, George</naam>
+            <geboortedatum>14/05/1944</geboortedatum>
+            <geboorteplaats>Modesto, California</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>lucas.jpg</foto>
+        </persoon>
+        <persoon id="KALLEN">
+            <naam>Allen, Karen</naam>
+            <geboortedatum>05/10/1951</geboortedatum>
+            <geboorteplaats>Carrollton, Illinois</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>kallen.jpg</foto>
+        </persoon>
+        <persoon id="ADEBOECK">
+            <naam>De Boeck, Antje</naam>
+            <geboortedatum>16/10/1964</geboortedatum>
+            <geboorteplaats>Antwerp, Belgium</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>deboeck.jpg</foto>
+        </persoon>
+        <persoon id="MPAS">
+            <naam>Pas, Michael</naam>
+            <geboortedatum>21/09/1966</geboortedatum>
+            <geboorteplaats>Antwerp, Belgium</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>pas.jpg</foto>
+        </persoon>
+        <persoon id="GDESARTHE">
+            <naam>Desarthe, Gérard</naam>
+            <geboortedatum>23/03/1945</geboortedatum>
+            <geboorteplaats>Paris, France </geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>desarthe.jpg</foto>
+        </persoon>
+        <persoon id="SCONINX">
+            <naam>Coninx, Stijn</naam>
+            <geboortedatum>21/02/1957</geboortedatum>
+            <geboorteplaats>Neerpelt, Belgium</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>coninx.jpg</foto>
+        </persoon>
+        <persoon id="EVANLOOY">
+            <naam>Van Looy, Erik</naam>
+            <geboortedatum>26/04/1962</geboortedatum>
+            <geboorteplaats>Deurne, Flanders, Belgium</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>vanlooy.jpg</foto>
+        </persoon>
+        <persoon id="JDECLEIR">
+            <naam>Decleir, Jan</naam>
+            <geboortedatum>14/02/1946</geboortedatum>
+            <geboorteplaats>Niel, Belgium</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>decleir.jpg</foto>
+        </persoon>
+        <persoon id="WDESMEDT">
+            <naam>De Smedt, Werner</naam>
+            <geboortedatum>17/07/1970</geboortedatum>
+            <geboorteplaats>Ninove, Belgium</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>desmedt.jpg</foto>
+        </persoon>
+        <persoon id="KDEBOUW">
+            <naam>De Bouw, Koen</naam>
+            <geboortedatum>30/09/1964</geboortedatum>
+            <geboorteplaats>Antwerpen, Flanders, Belgium</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>debouw.jpg</foto>
+        </persoon>
+        <persoon id="DLIMAN">
+            <naam>Liman, Doug</naam>
+            <geboortedatum>24/07/1965</geboortedatum>
+            <geboorteplaats>New York City, New York, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>liman.jpg</foto>
+        </persoon>
+        <persoon id="SASTIN">
+            <naam>Astin, Sean</naam>
+            <geboortedatum>25/02/1971</geboortedatum>
+            <geboorteplaats>Santa Monica, California, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>astin.jpg</foto>
+        </persoon>
+        <persoon id="LTYLER">
+            <naam>Tyler, Liv</naam>
+            <geboortedatum>01/07/1977</geboortedatum>
+            <geboorteplaats>New York City, New York, USA</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>tyler.jpg</foto>
+        </persoon>
+        <persoon id="VMORTENSEN">
+            <naam>Mortensen, Viggo</naam>
+            <geboortedatum>20/10/1958</geboortedatum>
+            <geboorteplaats>Manhattan, New York City, New York, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>mortensen.jpg</foto>
+        </persoon>
+        <persoon id="EWOOD">
+            <naam>Wood, Elijah</naam>
+            <geboortedatum>28/01/1981</geboortedatum>
+            <geboorteplaats>Cedar Rapids, Iowa, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>wood.jpg</foto>
+        </persoon>
+        <persoon id="AHOPKINS">
+            <naam>Hopkins, Anthony</naam>
+            <geboortedatum>31/12/1937</geboortedatum>
+            <geboorteplaats>Margam, Port Talbot, West Glamorgan, Wales, UK</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>hopkins.jpg</foto>
+        </persoon>
+        <persoon id="LFISHBURNE">
+            <naam>Fishburne, Lawrence</naam>
+            <geboortedatum>30/07/1961</geboortedatum>
+            <geboorteplaats>Augusta, Georgia, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>fishburne.jpg</foto>
+        </persoon>
+        <persoon id="CAMOSS">
+            <naam>Moss, Carrie-Ann</naam>
+            <geboortedatum>21/08/1967</geboortedatum>
+            <geboorteplaats>Vancouver, British Columbia, Canada</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>moss.jpg</foto>
+        </persoon>
+        <persoon id="HWEAVING">
+            <naam>Weaving, Hugo</naam>
+            <geboortedatum>04/04/1960</geboortedatum>
+            <geboorteplaats>Austin, Nigeria</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>weaving.jpg</foto>
+        </persoon>
+        <persoon id="LLIU">
+            <naam>Liu, Lucy</naam>
+            <geboortedatum>02/12/1968</geboortedatum>
+            <geboorteplaats>Queens, New York, USA</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>liu.jpg</foto>
+        </persoon>
+        <persoon id="VFOX">
+            <naam>Fox, Vivica</naam>
+            <geboortedatum>30/07/1964</geboortedatum>
+            <geboorteplaats>Indianapolis, Indiana, USA</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>fox.jpg</foto>
+        </persoon>
+        <persoon id="DHANNAH">
+            <naam>Hannah, Daryl</naam>
+            <geboortedatum>03/12/1960</geboortedatum>
+            <geboorteplaats>Chicago, Illinois, USA</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>hannah.jpg</foto>
+        </persoon>
+        <persoon id="TLJONES">
+            <naam>Jones, Tommy Lee</naam>
+            <geboortedatum>15/09/1946</geboortedatum>
+            <geboorteplaats>San Saba, Texas, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>jones.jpg</foto>
+        </persoon>
+        <persoon id="JBARDEM">
+            <naam>Bardem, Javier</naam>
+            <geboortedatum>01/03/1969</geboortedatum>
+            <geboorteplaats>Las Palmas de Gran Canaria, Gran Canaria, Canary Islands, Spain</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>bardem.jpg</foto>
+        </persoon>
+        <persoon id="WHARRELSON">
+            <naam>Harrelson, Woody</naam>
+            <geboortedatum>23/07/1961</geboortedatum>
+            <geboorteplaats> Midland, Texas, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>harrelson.jpg</foto>
+        </persoon>
+        <persoon id="JBROLIN">
+            <naam>Brolin, Josh</naam>
+            <geboortedatum>12/02/1968</geboortedatum>
+            <geboorteplaats>Los Angeles, California, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>brolin.jpg</foto>
+        </persoon>
+        <persoon id="KMACDONALD">
+            <naam>Macdonald, Kelly</naam>
+            <geboortedatum>23/02/1976</geboortedatum>
+            <geboorteplaats>Glasgow, Scotland, UK </geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>macdonald.jpg</foto>
+        </persoon>
+        <persoon id="ECOEN">
+            <naam>Coen, Ethan</naam>
+            <geboortedatum>29/04/1970</geboortedatum>
+            <geboorteplaats>Boston, Massachusetts, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>ecoen.jpg</foto>
+        </persoon>
+        <persoon id="JCOEN">
+            <naam>Coen, Joel</naam>
+            <geboortedatum>29/04/1970</geboortedatum>
+            <geboorteplaats>Boston, Massachusetts, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>jcoen.jpg</foto>
+        </persoon>
+        <persoon id="UTHURMAN">
+            <naam>Thurman, Uma</naam>
+            <geboortedatum>29/04/1970</geboortedatum>
+            <geboorteplaats>Boston, Massachusetts, USA</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>thurman.jpg</foto>
+        </persoon>
+        <persoon id="SJACKSON">
+            <naam>Jackson, Samuel</naam>
+            <geboortedatum>21/12/1948</geboortedatum>
+            <geboorteplaats>Washington, District of Columbia, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>sjackson.jpg</foto>
+        </persoon>
+        <persoon id="JTRAVOLTA">
+            <naam>Travolta, John</naam>
+            <geboortedatum>18/02/1954</geboortedatum>
+            <geboorteplaats>Englewood, New Jersey, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>travolta.jpg</foto>
+        </persoon>
+        <persoon id="CNOLAN">
+            <naam>Nolan, Christopher</naam>
+            <geboortedatum>30/07/1970</geboortedatum>
+            <geboorteplaats>London, England, UK</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>cnolan.jpg</foto>
+        </persoon>
+        <persoon id="MGYLLENHAAL">
+            <naam>Gyllenhaal, Maggie</naam>
+            <geboortedatum>16/11/1977</geboortedatum>
+            <geboorteplaats>Lower East Side, New York, New York, USA </geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>gyllenhaal.jpg</foto>
+        </persoon>
+        <persoon id="MCAINE">
+            <naam>Caine, Michael</naam>
+            <geboortedatum>14/03/1933</geboortedatum>
+            <geboorteplaats>Rotherhithe, London, England, UK</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>caine.jpg</foto>
+        </persoon>
+        <persoon id="HLEDGER">
+            <naam>Ledger, Heath</naam>
+            <geboortedatum>04/04/1979</geboortedatum>
+            <geboorteplaats>Perth, Western Australia, Australia</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>ledger.jpg</foto>
+        </persoon>
+        <persoon id="CBALE">
+            <naam>Bale, Christian</naam>
+            <geboortedatum>30/01/1974</geboortedatum>
+            <geboorteplaats>Haverfordwest, Pembrokeshire, Wales, UK</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>bale.jpg</foto>
+        </persoon>
+        <persoon id="FDARABONT">
+            <naam>Darabont, Frank</naam>
+            <geboortedatum>28/01/1959</geboortedatum>
+            <geboorteplaats>Montbéliard, Doubs, France</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>darabont.jpg</foto>
+        </persoon>
+        <persoon id="TROBBINS">
+            <naam>Robbins, Tim</naam>
+            <geboortedatum>16/10/1958</geboortedatum>
+            <geboorteplaats>West Covina, California</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>robbins.jpg</foto>
+        </persoon>
+        <persoon id="BGUNTON">
+            <naam>Gunton, Bob</naam>
+            <geboortedatum>15/11/1945</geboortedatum>
+            <geboorteplaats>Santa Monica, California</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>gunton.jpg</foto>
+        </persoon>
+        <persoon id="WSADLER">
+            <naam>Sadler, William</naam>
+            <geboortedatum>13/05/1950</geboortedatum>
+            <geboorteplaats>Buffalo, New York</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>sadler.jpg</foto>
+        </persoon>
+        <persoon id="CBROWN">
+            <naam>Brown, Clancy</naam>
+            <geboortedatum>05/01/1959</geboortedatum>
+            <geboorteplaats>Urbana, Ohio</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>brown.jpg</foto>
+        </persoon>
+        <persoon id="BPITT">
+            <naam>Pitt, Brad</naam>
+            <geboortedatum>18/12/1963</geboortedatum>
+            <geboorteplaats>Shawnee, Oklahoma</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>pitt.jpg</foto>
+        </persoon>
+        <persoon id="GCLOONEY">
+            <naam>Clooney, George</naam>
+            <geboortedatum>06/05/1961</geboortedatum>
+            <geboorteplaats>Lexington, Kentucky</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>clooney.jpg</foto>
+        </persoon>
+        <persoon id="JCARREY">
+            <naam>Carrey, Jim</naam>
+            <geboortedatum>17/01/1962</geboortedatum>
+            <geboorteplaats>Newmarket, Ontario</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>carrey.jpg</foto>
+        </persoon>
+        <persoon id="KREEVES">
+            <naam>Reeves, Keanu</naam>
+            <geboortedatum>02/09/1964</geboortedatum>
+            <geboorteplaats>Beiroet, Libanon</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>reeves.jpg</foto>
+        </persoon>
+        <persoon id="LDICAPRIO">
+            <naam>Di Caprio, Leonardo</naam>
+            <geboortedatum>11/11/1974</geboortedatum>
+            <geboorteplaats>Hollywood, California</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>dicaprio.jpg</foto>
+        </persoon>
+        <persoon id="MGIBSON">
+            <naam>Gibson, Mel</naam>
+            <geboortedatum>09/01/1956</geboortedatum>
+            <geboorteplaats>Peekskill, New York</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>gibson.jpg</foto>
+        </persoon>
+        <persoon id="MFREEMAN">
+            <naam>Freeman, Morgan</naam>
+            <geboortedatum>01/06/1937</geboortedatum>
+            <geboorteplaats>Memphis, Tennessee</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>freeman.jpg</foto>
+        </persoon>
+        <persoon id="OBLOOM">
+            <naam>Bloom, Orlando</naam>
+            <geboortedatum>13/01/1977</geboortedatum>
+            <geboorteplaats>Canterbury, Kent</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>bloom.jpg</foto>
+        </persoon>
+        <persoon id="RGERE">
+            <naam>Richard, Gere</naam>
+            <geboortedatum>31/08/1949</geboortedatum>
+            <geboorteplaats>Philadelphia, Pennsylvania</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>gere.jpg</foto>
+        </persoon>
+        <persoon id="TCRUISE">
+            <naam>Cruise, Tom</naam>
+            <geboortedatum>03/07/1962</geboortedatum>
+            <geboorteplaats>Syracuse, New York</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>cruise.jpg</foto>
+        </persoon>
+        <persoon id="MDAMON">
+            <naam>Damon, Matt</naam>
+            <geboortedatum>08/10/1970</geboortedatum>
+            <geboorteplaats>Cambridge, Massachusettes</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>damon.jpg</foto>
+        </persoon>
+        <persoon id="BWILLIS">
+            <naam>Willis, Bruce</naam>
+            <geboortedatum>19/03/1955</geboortedatum>
+            <geboorteplaats>Idar-Oberstein, West Germany</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>willis.jpg</foto>
+        </persoon>
+        <persoon id="DCAMERON">
+            <naam>Cameron, Diaz</naam>
+            <geboortedatum>30/08/1972</geboortedatum>
+            <geboorteplaats>San Diego, California</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>diaz.jpg</foto>
+        </persoon>
+        <persoon id="HBERRY">
+            <naam>Berry, Halle</naam>
+            <geboortedatum>14/08/1966</geboortedatum>
+            <geboorteplaats>Cleveland, Ohio</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>berry.jpg</foto>
+        </persoon>
+        <persoon id="JROBERTS">
+            <naam>Roberts, Julia</naam>
+            <geboortedatum>28/10/1967</geboortedatum>
+            <geboorteplaats>Smyrna, Georgia</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>roberts.jpg</foto>
+        </persoon>
+        <persoon id="AJOLIE">
+            <naam>Jolie, Angelina</naam>
+            <geboortedatum>04/06/1975</geboortedatum>
+            <geboorteplaats>Los Angeles, California</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>jolie.jpg</foto>
+        </persoon>
+        <persoon id="PJACKSON">
+            <naam>Jackson, Peter</naam>
+            <geboortedatum>31/10/1961</geboortedatum>
+            <geboorteplaats>Pukerua Bay, Nieuw Zeeland</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>jackson.jpg</foto>
+        </persoon>
+        <persoon id="SSPIELBERG">
+            <naam>Spielberg, Steven</naam>
+            <geboortedatum>18/12/1946</geboortedatum>
+            <geboorteplaats>Cincinnati, Ohio</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>spielberg.jpg</foto>
+        </persoon>
+        <persoon id="QTARANTINO">
+            <naam>Tarantino, Quentin</naam>
+            <geboortedatum>27/03/1963</geboortedatum>
+            <geboorteplaats>Knoxville, Tennessee</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>tarantino.jpg</foto>
+        </persoon>
+        <persoon id="DFINCHER">
+            <naam>Fincher, David</naam>
+            <geboortedatum>28/08/1962</geboortedatum>
+            <geboorteplaats>Denver, Colorado, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>fincher.jpg</foto>
+        </persoon>
+        <persoon id="GPALTROW">
+            <naam>Paltrow, Gwenyth</naam>
+            <geboortedatum>27/09/1972</geboortedatum>
+            <geboorteplaats>South Orange, New Jersey, USA</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>paltrow.jpg</foto>
+        </persoon>
+        <persoon id="KSPACEY">
+            <naam>Spacey, Kevin</naam>
+            <geboortedatum>26/07/1959</geboortedatum>
+            <geboorteplaats>Los Angeles, California, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>spacey.jpg</foto>
+        </persoon>
+        <persoon id="CSALDANHA">
+            <naam>Saldanha, Carlos</naam>
+            <geboortedatum>20/07/1968</geboortedatum>
+            <geboorteplaats>Rio de Janeiro, Rio de Janeiro, Brazil</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>saldanha.jpg</foto>
+        </persoon>
+        <persoon id="JLEE">
+            <naam>Lee, Jason</naam>
+            <geboortedatum>25/04/1970</geboortedatum>
+            <geboorteplaats>Orange, California, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>lee.jpg</foto>
+        </persoon>
+        <persoon id="RROMANO">
+            <naam>Romano, Ray</naam>
+            <geboortedatum>21/12/1957</geboortedatum>
+            <geboorteplaats>Queens, New York, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>romano.jpg</foto>
+        </persoon>
+        <persoon id="HHUNTER">
+            <naam>Hunter, Holly</naam>
+            <geboortedatum>20/03/1958</geboortedatum>
+            <geboorteplaats>Conyers, Georgia, USA</geboorteplaats>
+            <geslacht>V</geslacht>
+            <foto>hunter.jpg</foto>
+        </persoon>
+        <persoon id="CNELSON">
+            <naam>Nelson, Craig</naam>
+            <geboortedatum>04/04/1944</geboortedatum>
+            <geboorteplaats>Spokane, Washington, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>nelson.jpg</foto>
+        </persoon>
+        <persoon id="JLEGUIZAMO">
+            <naam>Leguizamo, John</naam>
+            <geboortedatum>22/07/1964</geboortedatum>
+            <geboorteplaats>Bogotá, Colombia</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>leguizamo.jpg</foto>
+        </persoon>
+        <persoon id="DLEARY">
+            <naam>Leary, Denis</naam>
+            <geboortedatum>18/08/1957</geboortedatum>
+            <geboorteplaats>Worcester, Massachusetts, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>leary.jpg</foto>
+        </persoon>
+        <persoon id="CWEDGE">
+            <naam>Wedge, Chris</naam>
+            <geboortedatum>20/03/1957</geboortedatum>
+            <geboorteplaats>Binghamton, New York, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>wedge.jpg</foto>
+        </persoon>
+        <persoon id="BBIRD">
+            <naam>Bird, Brad</naam>
+            <geboortedatum>11/09/1957</geboortedatum>
+            <geboorteplaats>Kalispell, Montana, USA</geboorteplaats>
+            <geslacht>M</geslacht>
+            <foto>bird.jpg</foto>
+        </persoon>
+    </personen>
+    <filmmaatschappijen>
+        <filmmaatschappij id="WALTDISNEYPICTURES">
+            <naam>Walt Disney Pictures</naam>
+            <website>disney.go.com/DisneyPictures</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="BLUESKYSTUDIO">
+            <naam>Blue Sky Studio</naam>
+            <website>www.blueskystudios.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="CASTLEROCK">
+            <naam>Castle Rock Entertainment</naam>
+            <website>www.lonestar-movie.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="NEWLINE">
+            <naam>New Line Cinema</naam>
+            <website>www.newline.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="MIRAMAX">
+            <naam>Miramax Films</naam>
+            <website>www.miramax.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="LEGENDARYPICTURES">
+            <naam>Legendary Pictures</naam>
+            <website>www.legendarypictures.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="PARAMOUNTVANTAGE">
+            <naam>Paramount Vantage</naam>
+            <website>www.paramountvantage.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="FAVOURITEFILMS">
+            <naam>Favourite Films</naam>
+            <website>www.favouritefilms.be/portal/index.htm</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="CECCHIGORIGROUPTIGERCINEMATOGRAFICA">
+            <naam>Cecchi Gori Group Tiger Cinematografica </naam>
+        </filmmaatschappij>
+        <filmmaatschappij id="REGENCYENTERPRICES">
+            <naam>New Regency Enterprices</naam>
+            <website>www.newregency.com/</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="MMG">
+            <naam>MMG Film &amp; TV Productions</naam>
+            <website>www.mmg.be/</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="WARNERBROS">
+            <naam>Warner Bros. Pictures</naam>
+            <website>www.nl.warnerbros.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="DREAMWORKS">
+            <naam>DreamWorks</naam>
+            <website>www.dreamworks.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="TWENTIETHCENTURYFOX">
+            <naam>20th Century Fox</naam>
+            <website>www.foxfilm.nl</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="PARAMOUNT">
+            <naam>Paramount Pictures</naam>
+            <website>www.paramount.nl</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="LUCASFILM">
+            <naam>Lucasfilm</naam>
+            <website>www.lucasfilm.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="SOGECINE">
+            <naam>Sogecine</naam>
+            <website>www.sogecine-sogepaq.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="UNITEDARTISTS">
+            <naam>United Artists</naam>
+            <website>www.unitedartists.com</website>
+        </filmmaatschappij>
+        <filmmaatschappij id="MICHAELWHITE">
+            <naam>Michael White Productions</naam>
+            <website>michaelwhiteproductions.com</website>
+        </filmmaatschappij>
+    </filmmaatschappijen>
+</imdb>

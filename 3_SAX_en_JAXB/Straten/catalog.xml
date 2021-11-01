@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/vongenae/Documents/Computernetwerken%20IV/labo/XML/Straten/src/straten.xsd" uri="xml-resources/jaxb/StratenJAXB/straten.xsd"/>
+    <system systemId="file:/C:/Users/vongenae/Documents/Computernetwerken%20IV/labo/XML/Straten/stratenPerStadsdeel.xml" uri="xml-resources/jaxb/stadsdelen/stratenPerStadsdeel.xml"/>
+    <system systemId="file:/C:/Users/vongenae/Documents/Computernetwerken%20IV/labo/XML/Straten/src/stratenPerStadsdeel.xsd" uri="xml-resources/jaxb/stratenPerStadsdeel/stratenPerStadsdeel.xsd"/>
+</catalog>

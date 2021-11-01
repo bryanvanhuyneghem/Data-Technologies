@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+<xsd:element name="imdb">
+   <xsd:complexType>
+      <xsd:sequence>
+	   <xsd:element ref="films"/>
+	   <xsd:element ref="personen"/>
+	   <xsd:element ref="filmmaatschappijen"/>
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+	
+<xsd:element name="films">
+   <xsd:complexType>
+      <xsd:choice maxOccurs="unbounded" minOccurs="0">
+           <xsd:element name="animatiefilm" type="animatiefilmtype" 
+                        minOccurs="1" maxOccurs="1"/>
+           <xsd:element name="film" type="filmtype" 
+                        maxOccurs="1" minOccurs="1"/>
+      </xsd:choice>
+   </xsd:complexType>
+</xsd:element>
+	
+
+<xsd:complexType name="animatiefilmtype">
+   <xsd:sequence>
+	<xsd:element name="titel" type="xsd:string"/>
+	<xsd:element ref="cast"/>
+	<xsd:element name="regisseur" minOccurs="1" maxOccurs="unbounded">
+           <xsd:complexType>
+              <xsd:attribute name="naam" use="required" type="xsd:IDREF"/>
+	   </xsd:complexType>
+	</xsd:element>
+	<xsd:element name="speelduur" type="xsd:nonNegativeInteger"/>
+	<xsd:element name="maatschappijen">
+	   <xsd:complexType>
+		<xsd:sequence>
+	 	   <xsd:element name="maatschappij" 
+                                minOccurs="1" maxOccurs="unbounded">
+			<xsd:complexType>
+		 	    <xsd:attribute name="naam" use="required" 
+                                           type="xsd:IDREF"/>
+			</xsd:complexType>
+		   </xsd:element>
+		</xsd:sequence>
+	   </xsd:complexType>
+	</xsd:element>
+   </xsd:sequence>
+   <xsd:attribute name="id" use="required" type="xsd:ID"/>
+   <xsd:attribute name="beoordeling" use="required" type="beoordelingType"/>
+</xsd:complexType>
+        
+
+<xsd:simpleType name="beoordelingType">
+   <xsd:restriction base="xsd:string">
+	<xsd:pattern value="(KT|KNT)"/>
+   </xsd:restriction>
+</xsd:simpleType>
+        
+<xsd:complexType name="filmtype">
+   <xsd:complexContent>
+	<xsd:extension base="animatiefilmtype">
+	   <xsd:sequence>
+ 	      <xsd:element name="filmlocatie" type="xsd:string"/>
+	   </xsd:sequence>
+	</xsd:extension>
+   </xsd:complexContent>
+</xsd:complexType>
+
+<xsd:element name="personen">
+   <xsd:complexType>
+	<xsd:sequence>
+ 	   <xsd:element ref="persoon" maxOccurs="unbounded"/>
+	</xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="persoon">
+   <xsd:complexType>
+	<xsd:sequence>
+ 	   <xsd:element name="naam" minOccurs="1" maxOccurs="1" 
+                        type="xsd:string"/>
+	   <xsd:element name="geboortedatum" minOccurs="1" maxOccurs="1" 
+                        type="datumType"/>
+	   <xsd:element name="geboorteplaats" minOccurs="1" maxOccurs="1" 
+                        type="xsd:string"/>
+	   <xsd:element name="geslacht" minOccurs="1" maxOccurs="1" 
+                        type="geslachtType"/>
+	   <xsd:element name="foto" minOccurs="1" maxOccurs="1" 
+                        type="fotoType"/>
+	</xsd:sequence>
+	<xsd:attribute name="id" use="required" type="xsd:ID"/>
+   </xsd:complexType>
+</xsd:element>
+
+<xsd:simpleType name="fotoType">
+   <xsd:restriction base="xsd:string">
+	<xsd:pattern value="[a-zA-Z0-9]*\.jpg"/>
+   </xsd:restriction>
+</xsd:simpleType>
+
+<xsd:simpleType name="datumType">
+   <xsd:restriction base="xsd:string">
+	<xsd:pattern value="[0-3][0-9]/[0-1][0-9]/[12][0-9]{3}"/>
+   </xsd:restriction>
+</xsd:simpleType>
+
+<xsd:simpleType name="geslachtType">
+   <xsd:restriction base="xsd:string">
+	<xsd:pattern value="[mvMV]"/>
+   </xsd:restriction>
+</xsd:simpleType>
+        
+<xsd:element name="filmmaatschappijen">
+   <xsd:complexType>
+	<xsd:sequence>
+	   <xsd:element ref="filmmaatschappij" maxOccurs="unbounded"/>
+	</xsd:sequence>
+   </xsd:complexType>
+</xsd:element>        
+
+<xsd:element name="filmmaatschappij">
+   <xsd:complexType>
+	<xsd:sequence>
+	   <xsd:element name="naam" minOccurs="1" maxOccurs="1" 
+                        type="xsd:string"/>
+	   <xsd:element name="website" minOccurs="0" maxOccurs="1" 
+                        type="xsd:string"/>
+	</xsd:sequence>
+	<xsd:attribute name="id" use="required" type="xsd:ID"/>
+   </xsd:complexType>
+</xsd:element>
+	
+<xsd:element name="cast">
+   <xsd:complexType>
+      <xsd:sequence>
+         <xsd:element name="personage" maxOccurs="unbounded">
+	    <xsd:complexType>
+	        <xsd:simpleContent>
+		   <xsd:extension base="xsd:string">
+		      <xsd:attribute name="acteur" type="xsd:IDREF" 
+                                     use="required"/>
+		   </xsd:extension>
+		</xsd:simpleContent>
+	    </xsd:complexType>
+	 </xsd:element>
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+        
+</xsd:schema>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/imdb.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE xsd:schema SYSTEM "imdb.dtd">
+
+    <xsd:schema>
+    ...
+    </xsd:schema>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:schema (xsd:complexType|xsd:simpleType|xsd:element)*>
+<!ATTLIST xsd:schema
+    xmlns:xsd CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:element (xsd:complexType)*>
+<!ATTLIST xsd:element
+    name CDATA #IMPLIED
+    ref CDATA #IMPLIED
+    type CDATA #IMPLIED
+    minOccurs CDATA #IMPLIED
+    maxOccurs CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:complexType (xsd:choice|xsd:attribute|xsd:complexContent|xsd:sequence|xsd:simpleContent)*>
+<!ATTLIST xsd:complexType
+    name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:sequence (xsd:element)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:choice (xsd:element)*>
+<!ATTLIST xsd:choice
+    maxOccurs CDATA #IMPLIED
+    minOccurs CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:attribute EMPTY>
+<!ATTLIST xsd:attribute
+    name CDATA #IMPLIED
+    use CDATA #IMPLIED
+    type CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:simpleType (xsd:restriction)*>
+<!ATTLIST xsd:simpleType
+    name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:restriction (xsd:pattern)*>
+<!ATTLIST xsd:restriction
+    base CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:pattern EMPTY>
+<!ATTLIST xsd:pattern
+    value CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:complexContent (xsd:extension)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:extension (xsd:attribute|xsd:sequence)*>
+<!ATTLIST xsd:extension
+    base CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xsd:simpleContent (xsd:extension)*>

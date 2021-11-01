@@ -1,0 +1,56 @@
+
+<!DOCTYPE HTML> 
+<HTML>
+    <HEAD>
+        <TITLE>Labo 5: ADO.Net (DataReaders en DataAdapters)</TITLE>
+    </HEAD>
+
+    <BODY>
+
+<h2>ADO.Net (DataReaders en DataAdapters)</h2>
+Tijdens dit labo ontwikkelen we een applicatie die gegevens uit een SQL-databank kan opvragen, toevoegen, verwijderen en aanpassen. 
+De applicatie wordt ontwikkeld m.b.v. ADO.Net. Start van het gegeven project 
+<a href="http://minerva.ugent.be/main/document/document.php?curdirpath=%2Flabo%2F5_ADO.NET_readers_en_adapters&cidReq=E76502002017"><code>Countries</code></a>.
+
+<p>&nbsp;</p>
+
+<h3>Toevoegen databank</h3>
+
+Voeg het bestand <a href="http://minerva.ugent.be/main/document/document.php?curdirpath=%2Flabo%2F5_ADO.NET_readers_en_adapters&cidReq=E76502002017"><code>countries.mdf</code></a> 
+toe aan de <i>Data Connections</i> in het venster <i>Server Explorer</i>. 
+Het type van de databron is <code>Microsoft SQL Server Database File (SqlClient)</code>.<p>De databank <code>countries</code> heeft &eacute;&eacute;n tabel <code>COUNTRY</code>. 
+Deze tabel heeft twee kolommen:</p>
+<ul>	
+<li>CODE: de unieke code van een land (primary key)</li>	
+<li>NAME: de naam van het land</li>
+</ul>
+
+Maak gebruik van deze dataverbinding om de inhoud van de tabel <code>COUNTRY</code> te bekijken.
+
+<h3>Uitwerken datalaag</h3>
+
+De <i>Solution</i> <code>Countries</code> bestaat uit twee projecten <code>Countries</code> en <code>TestCountries</code> die de volgende klassen bevatten.
+<ul>	
+<li><code>Country</code>: deze klasse stelt een land voor en heeft twee eigenschappen <code>Code</code> en <code>Name</code>.</li>	
+<li><code>DAOCountry</code>: deze klasse moet je implementeren en laat toe om landen toe te voegen, te verwijderen, aan te passen en op te halen.</li>	
+<li><code>TestDAOCountry</code>: deze klasse bevat een aantal methodes om de methodes en eigenschappen van <code>DAOCountry</code> te testen. 
+Test je implementatie uit door de klasse <code>TestDAOCountry</code> uit te voeren. Schakel eventueel testen uit of aan door de annotatie 
+<code>[TestMethode]</code> in commentaar te plaatsen.</li>
+</ul>
+In de configuratiebestanden van beide projecten zijn de SQL-opdrachten en de connectiestrings al voorzien. 
+Let op: de value van &#39;connectionString&#39; zal je toch nog moeten aanpassen: het <code>.mdf</code>-bestand heb je allicht niet in 
+<code>C:\temp</code> gezet. Zie vorig labo om de juiste waarde van &#39;connectionString&#39; terug te vinden 
+(nl. in het venster &#39;properties&#39; van de data connection naar de gebruikte databank). Pas dit in <i>beide</i> bestanden 
+<code>App.config</code> aan. In de klasse <code>DAOCountry</code> vind je ook de nodige constanten. Werk deze klasse verder uit. 
+Implementeer &eacute;&eacute;n eigenschap en drie methodes:
+<ul>	
+<li><code>public List&lt;Country&gt; Countries</code> 
+haalt informatie over de landen op uit de database en geeft ze als lijst van <code>Country</code>-objecten terug.</li>	
+<li><code>public void RemoveAllCountries()</code> maakt de tabel <code>COUNTRY</code> in de databank leeg.</li>	
+<li><code>public void Add(Country country)</code> voegt een land toe aan de tabel <code>COUNTRY</code>.</li>	
+<li><code>public DbDataAdapter createCountryAdapter()</code> maakt een adapter aan die toelaat om landen op te vragen uit de databank en te bewaren in een <code>DataTable</code>-object. 
+In dit object kunnen de namen van de landen aangepast worden. 
+De adapter maakt het mogelijk om deze aanpassingen door te voeren op de databank. Dit wordt ge&iuml;llustreerd in de testmethode <code>TestAdapter</code>.</li>
+</ul>
+</BODY>
+</HTML>

@@ -1,0 +1,71 @@
+<html><head><title>JDBC</title></head>
+    <body>
+        <h1> JDBC </h1>
+        <p>
+            In dit labo zullen we een applicatie ontwikkelen die analoog is aan diegene die we hebben gemaakt 
+            tijdens het labo van ADO.NET, maar nu zullen we een andere technologie gebruiken, namelijk JDBC. 
+        </p>
+        <h2>Opzetten van de databank</h2>
+        <p>Maak in het tabblad Services in Netbeans een nieuwe Java DB-databank aan met de volgende instellingen. 
+            <ul>
+                <li>naam: classicmodels</li>
+                <li>login: iii</li>
+                <li>wachtwoord: iiipwd</li>
+            </ul>
+            Maak de databank en tabellen aan:
+<ul>
+   <li>Download het bestand <a href="databank.zip">databank.zip</a> en unzip het bestand in C:\temp.</li>
+   <li>Open het bestand <code>C:\\temp\\scripts\\create_classicmodels.sql</code> in Netbeans en voer het uit op de net aangemaakte databank.Selecteer bovenaan de juiste "Connection" en klik op het icoon naast de keuzelijst. (zie figuur)</li>
+   <li>Open het bestand <code>C:\\temp\\scripts\\load_classicmodels.sql</code>in Netbeans en voer het uit op de net aangemaakte databank </li> 
+   <img src="script.png">
+</ul>
+Normaal is het gegevensbanksysteem nu opgestart en opgevuld met gegevens. 
+        <h2>Opdracht</h2>
+        <p>
+            <a href="ClassicModelsJDBC.zip">Hier</a> vind je een console-applicatie die je 
+            nog moet aanvullen zodat volgende acties uitgevoerd worden op de opgezette databank:  
+        <ul>
+            <li>Een lijst van alle producten tonen.</li>
+            <li>Een lijst van alle orders tonen van een bepaalde klant.</li>
+            <li>Een nieuw order inclusief orderdetails toevoegen aan de databank. Zorg ervoor dat wanneer 
+                het toevoegen van het order met orderdetails mislukt, de databank terugkeert naar de toestand 
+                voor het uitvoeren van de query.</li>
+
+    <li>Een customer aanpassen</li>
+        </ul>
+        <p>
+            Daarvoor heb je volgende queries nodig:
+            <code>
+                <ul>
+                    <li>select * from Products</li>
+                    <li>select * from Orders where customerNumber=...</li>
+                    <li>insert into Orders (orderNumber,orderDate,requiredDate,shippedDate,status,comments,customerNumber) values (...,...,...,...,...,...,...)</li>
+                    <li>insert into OrderDetails (orderNumber,productCode,quantityOrdered,priceEach,orderLineNumber) values (...,...,...,...,...)</li>
+                    <li>update Customers set customerName=...,contactLastName=...,contactFirstName=...,phone=...,addressLine1=...,addressLine2=...,city=...,state=...,postalCode=...,country=...,salesRepEmployeeNumber=...,creditLimit=... where customerNumber=...</li>
+                </ul>
+            </code>
+
+        <p>
+            De applicatie voldoet aan volgende eisen:
+        <ul>
+            <li>Geschreven in Java</li>
+            <li>Alle nodige query's komen uit een configuratiebestand. Je kan dan uit zo'n properties bestand lezen  
+                met hulp van een ResourceBundle. </li>
+            <li>Zorg dat je applicatie beschermd is tegen SQL-injectie.</li>
+            <li>Zorg voor een goede foutafhandeling.</li>
+            <li>Zorg dat je connectie steeds correct wordt afgesloten.</li>
+        </ul>
+        
+        <h2>Tips</h2>
+        <p>
+        <ul>
+            <li>"No suitable driver found"? Vergeet de juiste driver niet te installeren via de properties van het project.        
+            </li>
+            <li>Vergelijk de constructor van de klasse <code>java.sql.Date</code> met de methode <code>getTime()</code> van <code>java.util.Date</code>. Gebruik de klassen <code>DateFormat</code> en <code>SimpleDateFormat</code> indien nodig.
+        
+            </li>
+        </ul>
+        
+    </body></html>
+
+

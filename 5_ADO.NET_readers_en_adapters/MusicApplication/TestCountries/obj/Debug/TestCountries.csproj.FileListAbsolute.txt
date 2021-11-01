@@ -1,0 +1,10 @@
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\TestCountries\bin\Debug\music.xml
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\TestCountries\bin\Debug\TestCountries.dll
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\TestCountries\bin\Debug\TestCountries.pdb
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\TestCountries\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\TestCountries\bin\Debug\MusicApplication.exe
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\TestCountries\bin\Debug\MusicApplication.pdb
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\TestCountries\obj\Debug\TestCountries.csprojResolveAssemblyReference.cache
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\TestCountries\obj\Debug\TestCountries.dll
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\TestCountries\obj\Debug\TestCountries.pdb
+C:\Users\vongenae\Documents\Gegevenstechnologie\testen\testaug\MusicApplication\TestCountries\bin\Debug\TestCountries.dll.config
