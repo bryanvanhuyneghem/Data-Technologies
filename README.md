@@ -1,2 +1,2 @@
-# Data-Technologies
+# Data Technologies
 UGhent course on Data Technology
